@@ -1,0 +1,86 @@
+[versions]
+agp = "8.7.3"
+androidPdfViewer = "3.2.0-beta.1"
+concurrentFutures = "1.2.0"
+core = "4.6.2"
+extLatex = "4.6.2"
+extStrikethrough = "4.6.2"
+extTables = "4.6.2"
+extTasklist = "4.6.2"
+firebaseMlTextModelInterpreter = "22.0.1"
+generativeai = "0.9.0"
+guava = "31.1-android"
+html = "4.6.2"
+inlineParser = "4.6.2"
+jp2Android = "1.0.3"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxCoroutinesAndroid = "1.7.3"
+ktorClientCore = "2.3.3"
+linkify = "4.6.2"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+okhttp = "4.12.0"
+pdfboxAndroid = "2.0.27.0"
+playServicesMlkitDocumentScanner = "16.0.0-beta1"
+playServicesMlkitTextRecognition = "19.0.1"
+reactiveStreams = "1.0.4"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.1.0"
+retrofit = "2.9.0"
+secretsGradlePlugin = "2.0.1"
+kotlin = "2.0.21"
+coreKtx = "1.15.0"
+firebaseDatabase = "21.0.0"
+simpleExt = "4.6.2"
+volley = "1.2.1"
+
+[libraries]
+android-pdf-viewer = { module = "com.github.barteksc:android-pdf-viewer", version.ref = "androidPdfViewer" }
+concurrent-futures = { module = "androidx.concurrent:concurrent-futures", version.ref = "concurrentFutures" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+core = { module = "io.noties.markwon:core", version.ref = "core" }
+firebase-ml-text-model-interpreter = { module = "com.google.firebase:firebase-ml-text-model-interpreter", version.ref = "firebaseMlTextModelInterpreter" }
+generativeai = { module = "com.google.ai.client.generativeai:generativeai", version.ref = "generativeai" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+jp2-android = { module = "com.gemalto.jp2:jp2-android", version.ref = "jp2Android" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesAndroid" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktorClientCore" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktorClientCore" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktorClientCore" }
+markwon-ext-latex = { module = "io.noties.markwon:ext-latex", version.ref = "extLatex" }
+markwon-ext-strikethrough = { module = "io.noties.markwon:ext-strikethrough", version.ref = "extStrikethrough" }
+markwon-ext-tables = { module = "io.noties.markwon:ext-tables", version.ref = "extTables" }
+markwon-ext-tasklist = { module = "io.noties.markwon:ext-tasklist", version.ref = "extTasklist" }
+markwon-html = { module = "io.noties.markwon:html", version.ref = "html" }
+markwon-inline-parser = { module = "io.noties.markwon:inline-parser", version.ref = "inlineParser" }
+markwon-linkify = { module = "io.noties.markwon:linkify", version.ref = "linkify" }
+markwon-simple-ext = { module = "io.noties.markwon:simple-ext", version.ref = "simpleExt" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+pdfbox-android = { module = "com.tom-roush:pdfbox-android", version.ref = "pdfboxAndroid" }
+play-services-mlkit-document-scanner = { module = "com.google.android.gms:play-services-mlkit-document-scanner", version.ref = "playServicesMlkitDocumentScanner" }
+play-services-mlkit-text-recognition = { module = "com.google.android.gms:play-services-mlkit-text-recognition", version.ref = "playServicesMlkitTextRecognition" }
+reactive-streams = { module = "org.reactivestreams:reactive-streams", version.ref = "reactiveStreams" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+secrets-gradle-plugin = { module = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin", version.ref = "secretsGradlePlugin" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

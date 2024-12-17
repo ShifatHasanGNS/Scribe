@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navItemHome"
+        android:icon="@drawable/icon_home"
+        android:title="Home"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/navItemLibrary"
+        android:icon="@drawable/icon_library"
+        android:title="Library"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/navItemProfile"
+        android:icon="@drawable/icon_profile"
+        android:title="Profile"
+        tools:ignore="HardcodedText" />
+
+</menu>

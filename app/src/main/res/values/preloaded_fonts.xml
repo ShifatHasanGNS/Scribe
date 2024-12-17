@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/fira_code</item>
+        <item>@font/fira_code_semibold</item>
+        <item>@font/fira_sans_semibold</item>
+        <item>@font/merienda_extrabold</item>
+        <item>@font/merienda_one</item>
+        <item>@font/merienda_semibold</item>
+        <item>@font/metamorphous</item>
+    </array>
+</resources>

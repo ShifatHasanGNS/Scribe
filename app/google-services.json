@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560133352334",
+    "project_id": "scribe-v01",
+    "storage_bucket": "scribe-v01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560133352334:android:baf3d1db1b48353ceb12df",
+        "android_client_info": {
+          "package_name": "com.plasma.scribe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdyttZmk29MUehOo0DyiXm8mN8_MDTaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
